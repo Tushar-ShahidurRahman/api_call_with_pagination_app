@@ -19,7 +19,7 @@ class MyHomePage extends StatelessWidget {
 
     return Scaffold(
       appBar: AppBar(
-        title: Text('Pagination App'),
+        title: const Text('Api call and Pagination App'),
       ),
       body: Obx(
             () => ListView.builder(
