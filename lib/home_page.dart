@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-import 'main.dart';
+import 'home_controller.dart';
+// import 'main.dart';
 
 class MyHomePage extends StatelessWidget {
   final HomeController controller = Get.find();
